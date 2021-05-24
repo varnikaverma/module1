@@ -1,0 +1,8 @@
+To collect process information (GUI):
+1. Search for Task Manager.
+2. You can view the processes that are running and you can terminate them by selecting that process and then clicking the button End Task (bottom-right-corner)
+
+To collect proocess information (CLI):
+~ To view all the processes: Get-Process
+~ to view a particular process: Get-Process -Name <name of the process>
+~ To terminate a particular process: taskkill /F /PID <PROCESS ID> 
